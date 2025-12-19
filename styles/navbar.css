@@ -79,9 +79,54 @@
 }
 
 .contact-button:hover {
-    background-color: var(--white-color);
+    /* background-color: var(--white-color); */
     color: var(--blue-color);
 }
+/*  */
+
+.contact-button {
+    position: relative;
+    background-color: var(--yellow-color);
+    color: var(--blue-color);
+    text-decoration: none;
+    font-family: var(--font-league-spartan);
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 180px;
+    transition: color 0.3s;
+}
+
+/* underline for CONTACT */
+.contact-button::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: var(--blue-color);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.contact-button:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+/* focus / active ma hide */
+.contact-button:active::after,
+.contact-button:focus::after,
+.contact-button:focus-visible::after {
+    transform: translateX(-50%) scaleX(0);
+}
+
+.contact-button:focus,
+.contact-button:focus-visible {
+    outline: none;
+}
+
+/*  */
 
 .menu-toggle {
     color: var(--yellow-color);
