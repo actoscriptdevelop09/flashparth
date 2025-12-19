@@ -68,6 +68,8 @@
 
 .floating-thumb img {
     width: 100%;
+    border: 5px solid white;
+    border-radius: 10px;
 }
 
 .hum-row {
@@ -200,6 +202,9 @@
 /* -------- MOBILE -------- */
 @media (max-width: 576px) {
 
+        .question-mark {
+                right: 5%;
+            }
 .hum-subtitle {
         font-size: 15px;
         padding: 0 10px;
@@ -236,9 +241,13 @@
         padding: 15px 15px 0;
     }
 
-    .top-strip {
+    /* .top-strip {
         height: 30px;
-    }
+    } */
+                 .top-strip {
+                     height: 70px;
+                     top: -20px;
+                 }
 
     .final-subtitle {
         width: 100%;
