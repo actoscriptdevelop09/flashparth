@@ -322,3 +322,19 @@
         right: 0%;
     }
 }
+
+/* btn */
+
+.btn{
+   margin: 30px auto 0px auto !important; 
+}
+.btn button{
+    background: #ffd21f;
+        border-radius: 30px;
+        padding: 12px 25px;
+        margin: 0 auto;
+        width: max-content;
+        font-weight: 500;
+        vertical-align: middle;
+        border: none;
+}

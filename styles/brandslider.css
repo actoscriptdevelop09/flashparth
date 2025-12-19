@@ -49,7 +49,9 @@
 }
 
 .rd-brands-slider .swiper-wrapper .swiper-slide{
-    border-right: #959595 !important;
+    /* border-right: #959595 !important;/ */
+    border-right: 1px solid #6d6d6d !important;
+    
 }
 
 .brand-swiper-slide{
