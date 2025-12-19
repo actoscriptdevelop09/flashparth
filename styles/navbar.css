@@ -1,0 +1,91 @@
+:root {
+    --blue-color: #000080;
+    --yellow-color: #FFC700;
+    --white-color: #fff;
+    --black-color: #000;
+    --font-league-spartan: 'League Spartan', sans-serif;
+    --font-anton: 'Anton', sans-serif;
+}
+
+.main-header {
+    background-color: var(--blue-color);
+    padding-left: 30px;
+}
+
+.logo-wrapper {
+    padding: 15px 0;
+}
+
+.logo-image {
+    height: 60px;
+    width: auto;
+}
+
+.main-nav li {
+    margin: 0 20px;
+}
+
+.main-nav a {
+    color: var(--yellow-color);
+    text-decoration: none;
+    font-family: var(--font-league-spartan);
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: var(--white-color);
+}
+
+.contact-button {
+    background-color: var(--yellow-color);
+    color: var(--blue-color);
+    text-decoration: none;
+    font-family: var(--font-league-spartan);
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 180px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+}
+
+.menu-toggle {
+    color: var(--yellow-color);
+    font-size: 2.5rem;
+    padding-right: 20px;
+}
+
+.mobile-drawer {
+    background-color: var(--blue-color);
+}
+
+.drawer-nav a {
+    color: var(--yellow-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.drawer-contact {
+    background-color: var(--yellow-color);
+    color: var(--blue-color);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+    .logo-wrapper {
+        padding: 10px 0;
+    }
+
+    .logo-image {
+        height: 45px;
+    }
+}

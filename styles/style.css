@@ -1,0 +1,89 @@
+/* COMMON CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue-color: #000080;
+    --yellow-color: #FFC700;
+    --white-color: #fff;
+    --black-color: #000;
+    --font-league-spartan: 'League Spartan', sans-serif;
+    --font-anton: 'Anton', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6,span,div,p,a,ul,li{
+    font-family: var(--font-league-spartan);
+}
+
+.blue-bg {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.league-spartan {
+    font-family: var(--font-league-spartan);
+}
+.anton {
+    font-family: var(--font-anton);
+    letter-spacing: 1px;
+}
+@font-face {
+    font-family: "high-cruiser";
+    src: url("/assets/fonts/HighCruiser-PersonalUseOnly.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+.high-crusier {
+    font-family: "high-cruiser", sans-serif;
+    font-size: 100px;
+}
+
+
+
+/* FONT SIZES */
+.fs-1 {
+    font-size: 2.5rem;
+}
+.fs-2 {
+    font-size: 2rem;
+}
+.fs-3 {
+    font-size: 1.75rem;
+}
+.fs-4 {
+    font-size: 1.5rem;
+}
+.fs-5 {
+    font-size: 1.25rem;
+}
+.fs-6 {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .fs-1 {
+        font-size: 2rem;
+    }
+    .fs-2 {
+        font-size: 1.75rem;
+    }
+    .fs-3 {
+        font-size: 1.5rem;
+    }
+    .fs-4 {
+        font-size: 1.25rem;
+    }
+    .fs-5 {
+        font-size: 1rem;
+    }
+    .fs-6 {
+        font-size: 0.875rem;
+    }
+}

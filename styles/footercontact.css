@@ -1,0 +1,245 @@
+.as-primary-bg {
+    background-color: #ffd21f;
+}
+
+.as-secondary-bg {
+    background-color: #000080;
+}
+
+.as-primary-txt {
+    color: #000080;
+    font-weight: 700;
+}
+
+.as-secondary-txt {
+    color: #ffd21f;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+footer {
+    padding-top: 140px;
+    overflow-x: hidden;
+}
+
+.footer-icon-img {
+    width: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.as-contact-us {
+    padding: 170px 0 515px;
+}
+
+.contact-us-banner {
+    width: 450px;
+    position: absolute;
+    top: -50%;
+    right: 12%;
+}
+
+.contact-us-heading {
+    font-size: 56px;
+    z-index: 2;
+    position: relative;
+}
+
+.contact-form-box {
+    width: 50% !important;
+    background: #fff url(/assets/imgs/Contact_BG.png) no-repeat center / cover;
+    padding: 50px 100px 70px !important;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translate(-37%, -5%);
+}
+
+.as-form-field {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #000;
+    background-color: #e5e5f2;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e5f2;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.contact-cta {
+    padding: 6px 35px;
+    color: #fff;
+    background-color: #000080;
+    border: 1px solid #000080;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.contact-cta:hover {
+    color: #000080;
+    background-color: #ffd21f;
+    border: 1px solid #ffd21f;
+}
+
+.as-accordian-main {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.as-accordian-ttl {
+    /* font-size: 28px; */
+    color: #ffd21f;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.as-accordian-main p{
+    font-size: 22px;
+}
+
+.as-accordian-main:nth-child(1) .as-accordian-ttl {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .contact-form-box {
+        width: 62% !important;
+        padding: 50px 90px 70px !important;
+        right: 0%;
+        transform: translate(-32%, -6%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-form-box {
+        padding: 50px 85px 70px !important;
+        width: 70% !important;
+        transform: translate(-25%, -6%);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .as-contact-us {
+        padding: 170px 0 530px;
+    }
+
+    .contact-form-box {
+        padding: 50px 80px 70px !important;
+        width: 80% !important;
+        transform: translate(-10%, -6%);
+    }
+
+    .contact-us-banner {
+        width: 400px;
+        top: -50%;
+        right: 0%;
+    }
+
+    .contact-us-heading {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-us-heading {
+        font-size: 28px;
+    }
+
+    .contact-us-banner {
+        width: 330px !important;
+    }
+
+    .as-contact-us {
+        padding: 140px 0 500px;
+    }
+
+    .contact-form-box {
+        padding: 50px 45px 50px !important;
+        width: 90% !important;
+        transform: translate(-5%, -12%);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    footer {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact-us-banner {
+        width: 100%;
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .as-contact-us {
+        padding: 60px 0 70px;
+    }
+
+    .contact-form-box {
+        padding: 30px 20px 25px !important;
+        width: 90% !important;
+        transform: translate(0, 0) !important;
+        position: unset;
+        margin: -13px auto 0 !important;
+    }
+
+    .as-form-field {
+        width: 100%;
+    }
+}
+
+
+/* ======================================= */
+
+.as-accordian-main {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.as-accordian-ttl {
+    font-size: 28px;
+    color: #ffd21f;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.as-accordian-main:nth-child(1) .as-accordian-ttl {
+    margin-bottom: 0;
+}
+
+.client-review-main {
+    border: 1px dashed #b2b2d9;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.client-review-img {
+    width: 70px;
+}
+
+
+.rd-accordion-title {
+    font-size: 44px !important;
+    font-weight: 700 !important;
+}
+
+.rd-accordion-padding {
+    padding: 0 120px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .rd-accordion-padding {
+            padding: 0 30px !important;
+    }
+}

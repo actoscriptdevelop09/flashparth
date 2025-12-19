@@ -1,0 +1,59 @@
+.portfolio-section {
+    background: #000080;
+    color: white;
+    padding: 80px 0;
+}
+
+.rd-high-crusier {
+    width: max-content;
+    text-align: right;
+    margin: 0 auto;
+}
+
+/* port-box-one */
+.port-box-one {
+    border-left: 2px dashed #ffffff6b;
+    padding: 70px 30px;
+}
+
+/* port-box-two */
+.port-box-two {
+    border-right: 2px dashed #ffffff6b;
+    padding: 70px 30px;
+}
+
+.box-one-first {
+    border-right: 2px dashed #ffffff6b;
+    border-bottom: 2px dashed #ffffff6b;
+    padding: 50px 30px;
+}
+
+.box-one-sec {
+    /* border-left: 2px dashed #ffffff6b; */
+    border-bottom: 2px dashed #ffffff6b;
+    padding: 50px 30px;
+}
+
+.box-two-first {
+    /* border-right: 2px dashed #ffffff6b; */
+    border-top: 2px dashed #ffffff6b;
+    padding: 50px 30px;
+}
+
+.box-two-sec {
+    border-left: 2px dashed #ffffff6b;
+    border-top: 2px dashed #ffffff6b;
+    padding: 50px 30px;
+}
+
+.port-box-bdr::after {
+    content: '';
+    position: absolute;
+    rotate: 90deg;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 25%;
+    /* transform: translate(-50%, -50%); */
+    border-top: 2px dashed #ffffff6b;
+}

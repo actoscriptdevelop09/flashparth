@@ -1,0 +1,81 @@
+.client-review-main {
+    border: 1px dashed #b2b2d9;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.client-review-main .swiper-slide {
+    opacity: 1 !important;
+}
+
+.client-review-img {
+    width: 70px;
+}
+
+.CRC-slider-btn {
+    background-color: #ffffff00;
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%;
+    z-index: 10;
+}
+
+.CRC-slider-btn img {
+    width: 100%;
+}
+
+.ClientReviewsCustomNext {
+    right: -14%;
+}
+
+.ClientReviewsCustomPrev {
+    left: -14%;
+}
+
+@media screen and (max-width: 1440px) {
+    .CRC-slider-btn {
+        background-color: #3e3eff;
+        border: none;
+        width: 10%;
+        padding: 10px;
+    }
+
+    .ClientReviewsCustomNext {
+        right: -4%;
+    }
+
+    .ClientReviewsCustomPrev {
+        left: -4%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .CRC-btn-box {
+        margin-top: 20px;
+        text-align: end;
+    }
+
+    .CRC-slider-btn {
+        position: unset;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .CRC-slider-btn {
+        padding: 5px;
+    }
+
+    .CRC-slider-btn img {
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .CRC-slider-btn {
+        width: 25%;
+        padding: 10px;
+    }
+}

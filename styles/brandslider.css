@@ -1,0 +1,82 @@
+:root {
+    --font-league-spartan: 'League Spartan', sans-serif;
+}
+
+.league-spartan {
+    font-family: var(--font-league-spartan);
+}
+
+.rd-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rd-brands-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.rd-section-header {
+    margin-bottom: 25px;
+}
+
+.rd-main-title {
+    /* font-size: 70px; */
+    font-weight: 700;
+    font-family: var(--font-league-spartan);
+    color: #202020;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    line-height: 1.1;
+}
+
+.rd-highlight {
+    color: #000080;
+}
+
+.rd-subtitle {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--font-league-spartan);
+    color: #000000;
+    margin-top: 5px;
+}
+
+.rd-brands-slider {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.rd-brands-slider .swiper-wrapper .swiper-slide{
+    border-right: #959595 !important;
+}
+
+.brand-swiper-slide{
+    opacity: 0.3;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.rd-brand-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(1.5);
+    opacity: 0.8;
+    transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.swiper-slide-active .rd-brand-logo {
+    filter: grayscale(20%) brightness(1.1);
+    opacity: 1;
+}
