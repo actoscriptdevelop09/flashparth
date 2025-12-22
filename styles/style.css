@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden !important;
+}
 :root {
     --blue-color: #000080;
     --yellow-color: #FFC700;

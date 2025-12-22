@@ -141,6 +141,11 @@
 
 /* =-=-=-=-=-=-=-=-=-=-=-= */
 /* -------- TABLET -------- */
+@media (max-width: 1024px) {
+    .floating-thumb{
+        right: 15px;
+    }
+}
 
 @media (max-width: 900px) {
         .final-title {
@@ -254,3 +259,4 @@
         margin: 10px 0px 0px;
     }
 }
+

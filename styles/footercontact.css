@@ -68,10 +68,11 @@ footer {
 }
 
 .w-80 {
-    width: 80%;
+    width: 80% !important;
 }
 
 .contact-cta {
+    width: 30%;
     padding: 6px 35px;
     color: #fff;
     background-color: #000080;
