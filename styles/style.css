@@ -135,3 +135,7 @@ h1,h2,h3,h4,h5,h6,span,div,p,a,ul,li{
         border-color: transparent;
     }
 }
+
+a{
+    text-decoration: none !important;
+}

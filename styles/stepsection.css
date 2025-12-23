@@ -79,6 +79,12 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .einstein-img {
+        right: 10%;
+    }
+}
+
 /* Staircase Logic (Bottom Section) */
 .staircase-container {
     display: flex;
@@ -184,6 +190,9 @@
     .staircase-container {
         flex-direction: column;
     }
+    .lead-line, .exit-line{
+        display: none !important;
+    }
     .steps-section{
         padding: 50px 0px 0px 0px;
     }
@@ -195,9 +204,9 @@
 
     .lead-line,
     .exit-line,
-    .einstein-img {
+    /* .einstein-img {
         display: none;
-    }
+    } */
 
     .step-num {
         position: static;
@@ -205,9 +214,17 @@
     }
 }
 
+
 @media (max-width: 768px) {
     .steps-section{
         padding: 0px 0px 60px 0px;
+    }
+    .header-section {
+        padding: 80px 5% 20px 5%;
+    }
+    .einstein-img{
+        top: 5px;
+        width: 140px;
     }
 
 }
@@ -221,3 +238,6 @@
     top: -40px;
     right: 27%;
 }
+
+
+@

@@ -1,0 +1,35 @@
+.counter-box {
+    padding: 40px 20px;
+    background: var(--yellow-color);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.counter-box:hover {
+    transform: translateY(-10px);
+}
+.lead{
+    color: var(--yellow-color);
+    font-weight: 700 !important;
+
+}
+
+.counter {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--blue-color);
+    display: block;
+}
+
+/* Adding a plus sign after the numbers */
+.counter.with-plus::after {
+    content: "+";
+    font-size: 2rem;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.counter-box .small{
+    color: var(--blue-color) !important;
+}
