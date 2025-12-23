@@ -14,7 +14,7 @@ const clientReviewsSwiper = new Swiper(".ClientReviews", {
     1024: {
       slidesPerView: 2,
       spaceBetween: 30,
-    },
+    }
   },
 });
 

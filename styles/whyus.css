@@ -106,7 +106,13 @@
     position: relative;
     z-index: 2;
 }
-
+@media screen and (min-width: 768px) and (max-width: 1440px){
+    .final-title {
+        margin-top: 20px;
+        font-size: 44px !important;
+        text-align: center !important;
+    }
+}
 .final-subtitle {
     font-size: 16px;
     margin-top: 10px;
@@ -239,11 +245,11 @@
         width: 150px;
     }
 
-    .avatar {
+    /* .avatar {
         position: unset;
         display: flex;
         justify-content: center;
-    }
+    } */
 
     .avatar img {
         width: 200px;
@@ -266,4 +272,12 @@
         width: 100%;
         margin: 10px 0px 0px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .avatar {
+            position: unset;
+            display: flex;
+            justify-content: center;
+        }
 }
