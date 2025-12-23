@@ -1,11 +1,20 @@
-.herosection {
-    width: 100%;
-    height: 100%;
-}
-.herosection .hero {
-    width: 100%;
-}
-.hero img{
+.heroimg {
     width: 100%;
     height: auto;
+}
+
+/* Default */
+.mobile-gif {
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .desktop-gif {
+        display: none;
+    }
+
+    .mobile-gif {
+        display: block;
+    }
 }

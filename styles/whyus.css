@@ -1,7 +1,7 @@
 .hum-section {
     position: relative;
     background: var(--yellow-color);
-    padding: 90px 0 120px;
+    padding: 90px 0 90px;
     overflow: hidden;
 }
 
@@ -60,9 +60,9 @@
 
 .floating-thumb {
     position: absolute;
-    top: 30px;
-    right: -80px;
-    width: 130px;
+    top: 20px;
+    right: -60px;
+    width: 170px;
     z-index: 5;
 }
 
@@ -80,7 +80,7 @@
 
 .hum-left {
     padding: 28px;
-    font-size: 26px;
+    /* font-size: 26px; */
     font-weight: 800;
     color: var(--yellow-color);
     border-right: 1px solid var(--yellow-color);
@@ -142,81 +142,89 @@
 /* =-=-=-=-=-=-=-=-=-=-=-= */
 /* -------- TABLET -------- */
 @media (max-width: 1024px) {
-    .floating-thumb{
+    .floating-thumb {
         right: 15px;
     }
 }
 
 @media (max-width: 900px) {
-        .final-title {
-                font-size: 36px;
-                text-align: start;
-            }
-        
-            .final-title .as-primary-txt {
-                color: var(--yellow-color);
-            }
-        
-            .floating-thumb {
-                right: -30px;
-            }
-        
-            .question-mark {
-                right: 25%;
-            }
+    .final-title {
+        font-size: 36px;
+        text-align: start;
+    }
+
+    .final-title .as-primary-txt {
+        color: var(--yellow-color);
+    }
+
+    .floating-thumb {
+        right: -30px;
+    }
+
+    .question-mark {
+        right: 25%;
+    }
 }
 
 
 @media (max-width: 900px) {
 
     .hum-row {
-            grid-template-columns: 1fr;
-        }
-    
-        .hum-left {
-            border-right: none;
-            border-bottom: 1px solid var(--yellow-color);
-            font-size: 22px;
-        }
-    
-        .hum-right {
-            padding: 22px;
-        }
-    
-        /* KEEP ABSOLUTE — just reposition */
-        .floating-thumb {
-            top: 20px;
-            right: -20px;
-            width: 110px;
-        }
-    
-        .avatar {
-            bottom: -30px;
-            left: 20px;
-        }
-    
-        .avatar img {
-            width: 180px;
-        }
-    
-        .final-title {
-            font-size: 28px;
-        }
+        grid-template-columns: 1fr;
+    }
+
+    .hum-left {
+        border-right: none;
+        border-bottom: 1px solid var(--yellow-color);
+        /* font-size: 22px; */
+    }
+
+    .hum-right {
+        padding: 22px;
+    }
+
+    /* KEEP ABSOLUTE — just reposition */
+    .floating-thumb {
+        top: 20px;
+        right: -20px;
+        width: 110px;
+    }
+
+    .avatar {
+        bottom: -30px;
+        left: 20px;
+    }
+
+    .avatar img {
+        width: 180px;
+    }
+
+    .final-title {
+        font-size: 28px;
+    }
 }
 
 /* -------- MOBILE -------- */
+@media (max-width: 768px) {
+    .hum-section {
+        padding: 80px 0px 50px 0px;
+    }
+
+}
+
 @media (max-width: 576px) {
 
-        .question-mark {
-                right: 5%;
-            }
-.hum-subtitle {
+    .question-mark {
+        right: 5%;
+    }
+
+    .hum-subtitle {
         font-size: 15px;
         padding: 0 10px;
     }
 
     .hum-left {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 
     .final-title {
@@ -228,7 +236,7 @@
     .floating-thumb {
         top: 12px;
         right: 12px;
-        width: 120px;
+        width: 150px;
     }
 
     .avatar {
@@ -249,14 +257,13 @@
     /* .top-strip {
         height: 30px;
     } */
-                 .top-strip {
-                     height: 70px;
-                     top: -20px;
-                 }
+    .top-strip {
+        height: 70px;
+        top: -30px;
+    }
 
     .final-subtitle {
         width: 100%;
         margin: 10px 0px 0px;
     }
 }
-

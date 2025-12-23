@@ -28,7 +28,7 @@
     color: #202020;
     letter-spacing: 0.5px;
     margin-bottom: 5px;
-    line-height: 1.1;
+    /* line-height: 1.1; */
 }
 
 .rd-highlight {
@@ -81,4 +81,16 @@
 .swiper-slide-active .rd-brand-logo {
     filter: grayscale(20%) brightness(1.1);
     opacity: 1;
+}
+
+@media screen and (max-width: 991px){
+    .rd-brands-section {
+            padding: 60px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rd-brands-section {
+        padding: 30px 0;
+    }
 }

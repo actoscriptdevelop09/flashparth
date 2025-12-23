@@ -7,9 +7,12 @@
     --font-anton: 'Anton', sans-serif;
 }
 
+/* Header Base */
 .main-header {
     background-color: var(--blue-color);
     padding-left: 30px;
+    height: 80px;
+    /* Fixed height for alignment */
 }
 
 .logo-wrapper {
@@ -17,10 +20,11 @@
 }
 
 .logo-image {
-    height: 60px;
+    height: 50px;
     width: auto;
 }
 
+/* Desktop Navigation */
 .main-nav li {
     margin: 0 20px;
 }
@@ -31,22 +35,21 @@
     text-decoration: none;
     font-family: var(--font-league-spartan);
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: color 0.3s;
     padding: 5px 0;
+    letter-spacing: 1px;
 }
 
-/* underline */
 .main-nav a::after {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: -6px;
+    bottom: -4px;
     width: 100%;
     height: 2px;
     background-color: var(--yellow-color);
     transform: translateX(-50%) scaleX(0);
-    transform-origin: center;
     transition: transform 0.3s ease;
 }
 
@@ -54,36 +57,7 @@
     transform: translateX(-50%) scaleX(1);
 }
 
-.main-nav a:active::after,
-.main-nav a:focus::after,
-.main-nav a:focus-visible::after {
-    transform: translateX(-50%) scaleX(0);
-}
-
-.main-nav a:focus,
-.main-nav a:focus-visible {
-    outline: none;
-}
-
-/*  */
-
-.contact-button {
-    background-color: var(--yellow-color);
-    color: var(--blue-color);
-    text-decoration: none;
-    font-family: var(--font-league-spartan);
-    font-weight: 700;
-    font-size: 1.2rem;
-    width: 180px;
-    transition: background-color 0.3s;
-}
-
-.contact-button:hover {
-    /* background-color: var(--white-color); */
-    color: var(--blue-color);
-}
-/*  */
-
+/* Desktop Contact Button */
 .contact-button {
     position: relative;
     background-color: var(--yellow-color);
@@ -91,75 +65,81 @@
     text-decoration: none;
     font-family: var(--font-league-spartan);
     font-weight: 700;
-    font-size: 1.2rem;
-    width: 180px;
-    transition: color 0.3s;
+    font-size: 1.1rem;
+    width: 160px;
+    transition: all 0.3s ease;
 }
 
-/* underline for CONTACT */
-.contact-button::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    width: 50%;
-    height: 2px;
-    background-color: var(--blue-color);
-    transform: translateX(-50%) scaleX(0);
-    transform-origin: center;
-    transition: transform 0.3s ease;
+.contact-button:hover {
+    background-color: var(--white-color);
+    color: var(--blue-color);
 }
 
-.contact-button:hover::after {
-    transform: translateX(-50%) scaleX(1);
-}
-
-/* focus / active ma hide */
-.contact-button:active::after,
-.contact-button:focus::after,
-.contact-button:focus-visible::after {
-    transform: translateX(-50%) scaleX(0);
-}
-
-.contact-button:focus,
-.contact-button:focus-visible {
-    outline: none;
-}
-
-/*  */
-
+/* Mobile Toggle */
 .menu-toggle {
     color: var(--yellow-color);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-right: 20px;
+    line-height: 1;
 }
 
+/* Mobile Drawer (Offcanvas) */
 .mobile-drawer {
     background-color: var(--blue-color);
+    width: 300px !important;
+    /* Proper drawer width */
+    border-left: 2px solid var(--yellow-color);
 }
 
 .drawer-nav a {
-    color: var(--yellow-color);
+    color: var(--blue-color);
     text-decoration: none;
     text-transform: uppercase;
+    font-family: var(--font-league-spartan);
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.drawer-nav a:hover {
+    color: var(--yellow-color);
+    padding-left: 10px;
 }
 
 .drawer-contact {
     background-color: var(--yellow-color);
     color: var(--blue-color);
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     text-decoration: none;
+    font-family: var(--font-league-spartan);
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
-    .logo-wrapper {
-        padding: 10px 0;
+/* Close Button Color Fix */
+.btn-close-white {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(340deg);
+    /* Makes it Yellow */
+}
+
+/* Responsiveness for Tablet/Mobile (below 768px) */
+@media (max-width: 767px) {
+    .main-header {
+        padding-left: 15px;
+        height: 70px;
     }
 
     .logo-image {
-        height: 45px;
+        height: 35px;
     }
+
+    .menu-toggle {
+        font-size: 1.8rem;
+    }
+}
+
+.offcanvas-header{
+    border-bottom: 2px solid #000080;
+    background-color: #000080;
 }

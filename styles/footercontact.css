@@ -83,6 +83,11 @@ footer {
     font-weight: 400;
     transition: background-color 0.3s ease;
 }
+@media screen and (max-width: 576px) {
+    .contact-cta{
+        width: 100%;
+    }
+}
 
 .contact-cta:hover {
     color: #000080;

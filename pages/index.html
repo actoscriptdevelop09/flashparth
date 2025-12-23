@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flash Markting</title>
+    <link rel="stylesheet" href="/styles/loader.css">
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/navbar.css" />
     <link rel="stylesheet" href="/styles/herosection.css" />
@@ -51,9 +52,29 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.jpg" />
   </head>
   <body>
+
+    <!-- Loader Start -->
+      <!-- <div id="preloader">
+          <p>
+              <span class="number-track">​ w █</span>
+              <span class="number-track">​ e █</span>
+              
+              <span class="number-track" id="number-track-100">&nbsp; 1 l █</span>
+              
+              <span class="number-track" id="number-track-10">0 1 2 3 4 5 6 7 8 9 0 c █</span>
+              
+              <span class="number-track" id="number-track-1">0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 o █</span>
+
+              <span class="number-track">​ m █</span>
+              <span class="number-track">​ e █</span>
+          </p>
+      </div> -->
+
+    <!-- Loader End -->
+
     <!-- Navbar Start -->
 
-    <header class="main-header d-flex align-items-stretch" data-aos="flip-up">
+    <!-- <header class="main-header d-flex align-items-stretch" data-aos="flip-up">
       <div class="logo-wrapper d-flex align-items-center">
         <a href="#"
           ><img
@@ -114,17 +135,59 @@
         </ul>
         <a href="#" class="drawer-contact mt-auto">Contact</a>
       </div>
+    </div> -->
+
+<header class="main-header d-flex align-items-stretch">
+    <div class="logo-wrapper d-flex align-items-center">
+      <a href="#">
+        <img src="/assets/logopng.png" alt="FLASH marketing logo" class="logo-image" />
+      </a>
     </div>
 
+    <nav class="main-nav d-none d-md-flex align-items-center ms-auto">
+      <ul class="d-flex list-unstyled m-0">
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="contact-button d-none d-md-flex align-items-center justify-content-center">
+      CONTACT
+    </a>
+
+    <button class="menu-toggle d-md-none border-0 bg-transparent ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+      ☰
+    </button>
+  </header>
+
+  <div class="offcanvas offcanvas-end mobile-drawer" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+      <img src="/assets/logopng.png" class="drawer-logo" height="40" alt="Logo" />
+      <button type="button" class="btn-close btn-close-white h-100" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column p-0">
+      <ul class="drawer-nav list-unstyled p-4">
+        <li class="mb-4"><a href="#" class="fs-3">Services</a></li>
+        <li class="mb-4"><a href="#" class="fs-3">About Us</a></li>
+        <li class="mb-4"><a href="#" class="fs-3">Portfolio</a></li>
+      </ul>
+      <a href="#" class="drawer-contact mt-auto">Contact</a>
+    </div>
+  </div>
+    
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
 
-    <section class="herosection" data-aos="zoom-in">
-      <div class="hero">
-        <img src="/assets/herovid.gif" alt="Hero GIF" class="heroimg" />
-      </div>
-    </section>
+<section class="herosection" data-aos="zoom-in">
+  <div class="hero">
+    <img src="/assets/herovid.gif" class="heroimg desktop-gif" alt="Hero Desktop">
+    <img src="/assets/mobileherovid.gif" class="heroimg mobile-gif" alt="Hero Mobile">
+  </div>
+</section>
+
+
 
     <!-- Hero Section End -->
 
@@ -150,60 +213,63 @@
           </div>
           <div class="col-12">
             <div class="as-we-do-grid">
+
               <div class="as-we-do-box box-content" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-2 text-uppercase mb-2">
+                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
                   Content Writing
                 </h4>
-                <p class="text-white mb-3">
+                <p class="text-white mb-3 fs-5">
                   <span class="fw-bold"
                     >Websites, scripts, social media posts, blogs,</span
                   >
                   and everything in between.
                 </p>
-                <p class="text-white m-0">
+                <p class="text-white m-0 fs-5">
                   We make it sound good and rank high.
                 </p>
               </div>
+
               <div class="as-we-do-box box-seo" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-2 text-uppercase mb-2">
+                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
                   SEO
                 </h4>
-                <p class="text-white mb-3">
+                <p class="text-white mb-3  fs-5">
                   We play nice with Google, so your brand doesn't have to beg
                   for visibility.
                 </p>
-                <p class="text-white m-0">
+                <p class="text-white m-0  fs-5">
                   From AIO SEO to keywords and backlinks, we make sure your name
                   pops up on page #1.
                 </p>
               </div>
 
               <div class="as-we-do-box box-smm" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-2 text-uppercase mb-2">
+                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
                   smm
                 </h4>
-                <p class="text-white mb-2">
+                <p class="text-white mb-2  fs-5">
                   If you're not building your brand's personality through social
                   media, you're already way behind.
                 </p>
-                <p class="text-white m-0">
+                <p class="text-white m-0  fs-5">
                   We help you ace the most important advertising tool of the
                   generation.
                 </p>
               </div>
+
               <div class="as-we-do-box box-influencer" data-aos="zoom-out">
                 <h4
-                  class="as-secondary-txt fw-bold fs-2 text-uppercase mb-2 w-50"
+                  class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
                 >
                   Influencer Marketing
                 </h4>
-                <p class="text-white mb-3">
+                <p class="text-white mb-3  fs-5">
                   We know
                   <span class="fw-bold"
                     >which influencers the internet listens to.</span
                   >
                 </p>
-                <p class="text-white m-0">
+                <p class="text-white m-0 fs-5">
                   So we team you up with the ones who turn attention into
                   action, views and likes.
                 </p>
@@ -211,11 +277,11 @@
 
               <div class="as-we-do-box box-video" data-aos="zoom-out">
                 <h4
-                  class="as-secondary-txt fw-bold fs-2 text-uppercase mb-2 w-50"
+                  class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
                 >
                   Video Editing
-                </h4>
-                <p class="text-white m-0">
+                </h4> 
+                <p class="text-white m-0 fs-5">
                   We cut, crop, sync, and stitch until your video looks like a
                   professional video that's ready to go viral!!
                 </p>
@@ -223,7 +289,7 @@
             </div>
           </div>
           <div class="col-12 btn">
-            <button href="#" class="">Request Sample</button>
+            <button class=" fs-5"><a href="#contact-form-box" style="color: #000080;text-decoration: none;">Request Sample</a></button>
           </div>
         </div>
       </div>
@@ -243,15 +309,15 @@
             />
           </div>
           <div
-            class="col-12 col-lg-7 d-flex align-items-center pe-0 pe-xl-5"
+            class="about-p col-12 col-lg-7 d-flex align-items-center pe-0 pe-xl-5 "
             data-aos="zoom-in-down"
           >
             <div>
-              <p class="text-white mb-3 text-center text-lg-end fs-20">
+              <p class="text-white mb-3 text-left text-lg-end fs-5">
                 It's me, <span class="as-secondary-txt">Parth,</span> and my
                 ridiculously talented team.
               </p>
-              <p class="text-white mb-3 text-center text-lg-end fs-20">
+              <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
                 We're not here to
                 <span class="as-secondary-txt"
                   >drown you in corporate buzzwords or 40-slide decks that say
@@ -261,11 +327,11 @@
                 videos that convert, SEO that ranks, and social strategies that
                 get attention.
               </p>
-              <p class="text-white mb-3 text-center text-lg-end fs-20">
+              <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
                 We're young, we move fast, and we don't believe in half-baked
                 promises. We don't rest until your brand is thriving.
               </p>
-              <p class="text-white mb-0 text-center text-lg-end fs-20">
+              <p class="text-white mb-0 text-left text-lg-end fs-20 fs-5">
                 Deliver first, sleep later. That's pretty much how we function.
               </p>
             </div>
@@ -292,7 +358,7 @@
           HUM HI KYUN
         </h1>
 
-        <p class="hum-subtitle league-spartan" data-aos="fade-down">
+        <p class="hum-subtitle league-spartan fs-5" data-aos="fade-down">
           Our digital marketing team is young, painfully online, and
           <strong class="as-primary-txt">powered by iced coffee</strong> and
           chaos. We scroll, stalk, and study trends like it’s a full-time job
@@ -306,8 +372,8 @@
           </div>
 
           <div class="hum-row" data-aos="fade-left">
-            <div class="hum-left">WE'RE FAST.</div>
-            <div class="hum-right w-75">
+            <div class="hum-left fs-3">WE'RE FAST.</div>
+            <div class="hum-right w-80 fs-5">
               We don't drag things out; we just get the job done right, once and
               for all.
               <span class="highlight">We just get sh*t done.</span>
@@ -315,16 +381,16 @@
           </div>
 
           <div class="hum-row" data-aos="fade-right">
-            <div class="hum-left">WE GET IT.</div>
-            <div class="hum-right w-75">
+            <div class="hum-left fs-3">WE GET IT.</div>
+            <div class="hum-right w-100 fs-5">
               You don’t need to over-explain. We catch the vibe, read between
               the lines, and deliver exactly what you meant.
             </div>
           </div>
 
           <div class="hum-row" data-aos="fade-left">
-            <div class="hum-left">WE'RE GEN-Z</div>
-            <div class="hum-right w-75">
+            <div class="hum-left fs-3">WE'RE GEN-Z</div>
+            <div class="hum-right w-100 fs-5">
               We’ve seen every platform rise, crash, and rebrand.
               <span class="highlight">The algorithm raised us</span>, now we use
               it to raise your brand.
@@ -344,7 +410,7 @@
                     >OOD.</span
                   >
                 </h4>
-                <p class="final-subtitle league-spartan">
+                <p class="final-subtitle league-spartan  fs-5">
                   We'll call out what's outdated, fix it, and make it perform.
                   <span class="highlight"
                     >Strategy, creativity, and execution</span
@@ -362,7 +428,7 @@
     <!-- Steps section start -->
 
     <section class="steps-section">
-      <div class="container header-section">
+      <div class="header-section">
         <h1 class="steps-main-title" data-aos="flip-left">THERE'S A METHOD TO OUR MADNESS</h1>
         <p class="sub-title" data-aos="flip-left">5 STEP PROCESS</p>
         <img
@@ -376,8 +442,8 @@
         <div class="lead-line" data-aos="fade-right" data-aos-delay="100"></div>
         <div class="step s1" data-aos="fade-right" data-aos-delay="200">
           <span class="step-num">01</span>
-          <h2 class="step-heading">WE VIBE</h2>
-          <p class="step-content">
+          <h2 class="step-heading fs-3">WE VIBE</h2>
+          <p class="step-content fs-5">
             You talk, we listen. No long forms,
             <b>just a real conversation.</b> Even if you say, "I want it to be
             just right, you know?" We get it.
@@ -385,8 +451,8 @@
         </div>
         <div class="step s2" data-aos="fade-right" data-aos-delay="300">
           <span class="step-num">02</span>
-          <h2 class="step-heading">WE<br />STRATEGISE</h2>
-          <p class="step-content">
+          <h2 class="step-heading fs-3">WE<br />STRATEGISE</h2>
+          <p class="step-content  fs-5">
             This is where the <b>chaos gets direction.</b> We take your ideas,
             mix in a little data, a little instinct, and a lot of internet
             strategy.
@@ -394,24 +460,24 @@
         </div>
         <div class="step s3" data-aos="fade-right" data-aos-delay="400">
           <span class="step-num">03</span>
-          <h2 class="step-heading">WE<br />CREATE</h2>
-          <p class="step-content">
+          <h2 class="step-heading fs-3">WE<br />CREATE</h2>
+          <p class="step-content fs-5">
             Words, videos, trends, all custom-cooked for your brand to stand out
             and get high conversions.
           </p>
         </div>
         <div class="step s4" data-aos="fade-right" data-aos-delay="500">
           <span class="step-num">04</span>
-          <h2 class="step-heading">WE<br />LAUNCH</h2>
-          <p class="step-content">
+          <h2 class="step-heading fs-3">WE<br />LAUNCH</h2>
+          <p class="step-content fs-5">
             Giving your brand the true <b>main character moment</b> it deserves
             across all the online platforms.
           </p>
         </div>
         <div class="step s5" data-aos="fade-right" data-aos-delay="600">
           <span class="step-num">05</span>
-          <h2 class="step-heading">WE<br />ANALYSE</h2>
-          <p class="step-content">
+          <h2 class="step-heading fs-3">WE<br />ANALYSE</h2>
+          <p class="step-content fs-5">
             <b>No ghosting.</b> We track the numbers, tweak what needs tweaking,
             and keep your online space thriving.
           </p>
@@ -428,7 +494,7 @@
       <div class="rd-container">
         <div class="rd-section-header">
           <h2 class="rd-main-title fs-1" data-aos="flip-left">
-            PEOPLE TRUSTED US, AND IT WAS <br /><span class="rd-highlight fs-1"
+            PEOPLE TRUSTED US, AND IT WAS <br /><span class="rd-highlight"
               >WORTH THEIR </span
             >WHILE
           </h2>
@@ -750,7 +816,7 @@
     <!-- Portfolio Section -->
 
     <section class="portfolio-section">
-      <div class="container py-5">
+      <div class="container py-2">
         <div class="row">
           <div class="col-12 text-center">
             <div class="rd-high-crusier">
@@ -982,8 +1048,8 @@
 
     <!-- Footer and Contact Us Start -->
 
-    <section class="as-contact-us as-secondary-bg position-relative">
-      <div class="container">
+    <section class="as-contact-us as-secondary-bg position-relative" id="contact-form-box">
+      <div class="container" >
         <div class="row">
           <div class="col-12 position-relative">
             <div>
@@ -997,7 +1063,7 @@
             <h4 class="text-white fw-600 anton" data-aos="fade-right">
               CALL US TO MAKE YOUR BRAND GO VIRAL
             </h4>
-            <h4 class="text-white fw-600 anton" data-aos="fade-right">+91 97255 33652</h4>
+            <h4 class="text-white fw-600 anton" data-aos="fade-right"><a class="text-white fw-600 anton" style="text-decoration: none;"  href="tel:9725533652" title="Contact Number">+91 97255 33652</a></h4>
             <img
               src="../assets/imgs/jetha-babita.png"
               alt="Jetha Babita"
@@ -1005,7 +1071,7 @@
               data-aos="fade-left"
             />
           </div>
-          <div class="contact-form-box">
+          <div class="contact-form-box" >
             <h3
               class="as-primary-txt text-center text-uppercase fw-bold pb-3 pb-md-5"
             >
@@ -1106,7 +1172,7 @@
                     <a
                       href="tel:9725533652"
                       title="Contact Number"
-                      class="text-dark fw-600"
+                      class="text-dark fw-600 fs-6"
                       ><img
                         src="../assets/imgs/Icons/call.png"
                         alt="Call"
@@ -1119,7 +1185,7 @@
                     <a
                       href="mailto:hi@itsflashmarketing.com"
                       title="Mail ID"
-                      class="text-dark fw-600"
+                      class="text-dark fw-600 fs-6"
                       ><img
                         src="../assets/imgs/Icons/mail.png"
                         alt="Mail"
@@ -1206,7 +1272,9 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <!-- Review Section JS -->
+    <script src="../js/loader.js"></script>
     <script src="../js/review.js"></script>
     <script src="../js/script.js"></script>
+
   </body>
 </html>

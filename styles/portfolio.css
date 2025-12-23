@@ -90,7 +90,8 @@
 
 @media screen and (max-width: 425px) {
     .high-crusier {
-        font-size: 42px;
+        font-size: 50px;
+        line-height: normal;
     }
 
     .port-box-one {

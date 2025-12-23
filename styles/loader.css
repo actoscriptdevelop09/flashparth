@@ -1,0 +1,44 @@
+#preloader {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: black !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 99999 !important;
+    overflow: hidden !important;
+}
+
+#preloader p {
+    font-family: "JetBrains Mono", monospace !important;
+    font-weight: 600 !important;
+    font-size: 15vh !important;
+    display: flex !important;
+    height: 2ch !important;
+    line-height: 2ch !important;
+    overflow: hidden !important;
+    color: white !important;
+    margin: 0 !important;
+    transition: transform 1.6s cubic-bezier(.65, .05, 0, 1) !important;
+}
+
+.number-track {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 1ch !important;
+    transition: transform 1.2s cubic-bezier(.65, .05, 0, 1) !important;
+    text-align: center !important;
+}
+
+@keyframes preloaderClip {
+    0% {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+
+    100% {
+        clip-path: inset(0% 0% 100% 0%);
+    }
+}
