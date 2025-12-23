@@ -346,7 +346,7 @@
         border: none;
 }
 @media screen and (min-width: 1441px) and (max-width: 1560px){
-    .about-p{
-        padding-right: 12rem !important;
+    .as-about-us-main{
+        width: 95%;
     }
 }
