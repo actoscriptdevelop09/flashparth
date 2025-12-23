@@ -152,6 +152,11 @@ footer {
         font-size: 38px;
     }
 }
+@media screen and (max-width: 1200px) {
+    .contact-us-banner {
+        top: -30%;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .contact-us-heading {

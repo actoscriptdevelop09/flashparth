@@ -85,6 +85,16 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .einstein-img {
+            top: 50%;
+            width: 140px;
+            right: 0%;
+    }
+}
+
+
+
 /* Staircase Logic (Bottom Section) */
 .staircase-container {
     display: flex;
@@ -222,10 +232,10 @@
     .header-section {
         padding: 80px 5% 20px 5%;
     }
-    .einstein-img{
+    /* .einstein-img{
         top: 5px;
         width: 140px;
-    }
+    } */
 
 }
 .thumbs-up-gif {
@@ -238,6 +248,3 @@
     top: -40px;
     right: 27%;
 }
-
-
-@

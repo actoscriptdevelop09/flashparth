@@ -26,48 +26,10 @@
     color: var(--yellow-color);
     font-weight: 500;
     text-transform: capitalize;
-    /* margin-bottom: 10px; */
 }
 
 .as-accordian-main:nth-child(1) .as-accordian-ttl {
     margin-bottom: 0;
-}
-
-.client-review-main {
-    border: 1px dashed #b2b2d9;
-    border-radius: 15px;
-    padding: 20px;
-}
-
-.client-review-main .swiper-slide {
-    opacity: 1 !important;
-}
-
-.client-review-img {
-    width: 70px;
-}
-
-.CRC-slider-btn {
-    background-color: #ffffff00;
-    border-radius: 6px;
-    border: none;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 15%;
-    z-index: 10;
-}
-
-.CRC-slider-btn img {
-    width: 100%;
-}
-
-.ClientReviewsCustomNext {
-    right: -14%;
-}
-
-.ClientReviewsCustomPrev {
-    left: -14%;
 }
 
 .fs-20 {
@@ -83,8 +45,8 @@
     z-index: 1;
     border-top: 2px dashed var(--white-color);
     border-right: 2px dashed var(--white-color);
-    border-radius: 0 30px 30px 0;
     border-bottom: 2px dashed var(--white-color);
+    border-radius: 0 30px 30px 0;
 }
 
 .as-about-us-main::after {
@@ -95,7 +57,6 @@
     bottom: 0;
     transform: translate(0px, 5px);
     left: 0;
-    z-index: 1;
     background-color: var(--blue-color);
 }
 
@@ -156,7 +117,6 @@
     padding: 28px;
     border: 4px solid var(--white-color);
     border-radius: 14px;
-    /* height: 100%; */
 }
 
 .box-content {
@@ -173,55 +133,19 @@
 
 .box-influencer {
     width: 33%;
-    /* margin-top: -15px; */
 }
 
 .box-video {
     width: 24%;
-    /* margin-top: -15px; */
 }
 
 @media screen and (max-width: 1440px) {
-    .CRC-slider-btn {
-        /* background-color: #3e3eff; */
-        border: none;
-        width: 10%;
-        padding: 10px;
-    }
-
-    .ClientReviewsCustomNext {
-        right: -4%;
-    }
-
-    .ClientReviewsCustomPrev {
-        left: -4%;
-    }
-
     .as-about-us-main {
         width: 95%;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .CRC-btn-box {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .CRC-slider-btn {
-        position: unset;
-        top: 0;
-        transform: translateY(0);
-    }
-
-    .CRC-slider-btn {
-        padding: 5px;
-    }
-
-    .CRC-slider-btn img {
-        height: 15px;
-    }
-
     .as-about-us-main {
         width: 96%;
         height: 62%;
@@ -236,16 +160,8 @@
     .box-seo {
         width: 62%;
     }
+}
 
-    /* .we-do-main-heading::after {
-        left: 50%;
-    } */
-}
-@media screen and (max-width: 1200px) {
-    .we-do-main-heading::after {
-        left: 0% !important;
-    }
-}
 @media screen and (max-width: 1024px) {
     .as-about-us-main {
         display: none;
@@ -256,8 +172,6 @@
         height: 75px;
     }
 }
-
-
 
 @media screen and (max-width: 800px) {
     .as-about-box {
@@ -272,7 +186,7 @@
 
     .as-we-do-grid {
         display: grid;
-        gap: 20px 20px;
+        gap: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -284,31 +198,12 @@
         width: auto;
     }
 
-    .box-influencer,
-    .box-video {
-        margin-top: 0;
-    }
-
-    .we-do-main-heading::after {
-        transform: translate(0%, 8px);
-        left: 0;
-    }
-
-    .we-do-heading::after {
-        width: 110px;
-    }
-
     .we-do-main-heading {
         margin-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .CRC-slider-btn {
-        width: 25%;
-        padding: 10px;
-    }
-
     .as-about-img {
         width: 100%;
     }
@@ -330,23 +225,23 @@
     }
 }
 
-/* btn */
+/* Button */
+.btn {
+    margin: 30px auto 0px auto !important;
+}
 
-.btn{
-   margin: 30px auto 0px auto !important; 
-}
-.btn button{
+.btn button {
     background: #ffd21f;
-        border-radius: 30px;
-        padding: 12px 25px;
-        margin: 0 auto;
-        width: max-content;
-        font-weight: 500;
-        vertical-align: middle;
-        border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    margin: 0 auto;
+    width: max-content;
+    font-weight: 500;
+    border: none;
 }
-@media screen and (min-width: 1441px) and (max-width: 1560px){
-    .as-about-us-main{
+
+@media screen and (min-width: 1441px) and (max-width: 1900px) {
+    .as-about-us-main {
         width: 95%;
     }
 }

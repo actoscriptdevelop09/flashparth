@@ -71,306 +71,192 @@
           </p>
       </div> -->
 
-<div class="preloader">
-  <div class="preloader-content">
-    <div class="percent">0</div>
-    <div class="bar-container">
-      <div class="bar"></div>
-    </div>
-  </div>
-</div>
+        <div class="preloader">
+          <div class="preloader-content">
+            <div class="percent">0</div>
+            <div class="bar-container">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
 
     <!-- Loader End -->
 
     <!-- Navbar Start -->
 
-    <header class="main-header d-flex align-items-stretch">
-      <div class="logo-wrapper d-flex align-items-center">
-        <a href="#">
-          <img src="/assets/logopng.png" alt="FLASH marketing logo" class="logo-image" />
+      <header class="main-header d-flex align-items-stretch">
+        <div class="logo-wrapper d-flex align-items-center">
+          <a href="#">
+            <img src="/assets/logopng.png" alt="FLASH marketing logo" class="logo-image" />
+          </a>
+        </div>
+
+        <nav class="main-nav d-none d-md-flex align-items-center ms-auto">
+          <ul class="d-flex list-unstyled m-0">
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact-form-box" class="contact-button d-none d-md-flex align-items-center justify-content-center">
+          CONTACT
         </a>
+
+        <button class="menu-toggle d-md-none border-0 bg-transparent ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+          ☰
+        </button>
+      </header>
+
+      <div class="offcanvas offcanvas-end mobile-drawer" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+          <img src="/assets/logopng.png" class="drawer-logo" height="40" alt="Logo" />
+          <button type="button" class="btn-close btn-close-white h-100" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column p-0">
+          <ul class="drawer-nav list-unstyled p-4">
+            <li class="mb-4"><a href="#" class="fs-3">Services</a></li>
+            <li class="mb-4"><a href="#" class="fs-3">About Us</a></li>
+            <li class="mb-4"><a href="#" class="fs-3">Portfolio</a></li>
+          </ul>
+          <a href="#contact-form-box" class="drawer-contact mt-auto">Contact</a>
+        </div>
       </div>
-
-      <nav class="main-nav d-none d-md-flex align-items-center ms-auto">
-        <ul class="d-flex list-unstyled m-0">
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-        </ul>
-      </nav>
-
-      <a href="#contact-form-box" class="contact-button d-none d-md-flex align-items-center justify-content-center">
-        CONTACT
-      </a>
-
-      <button class="menu-toggle d-md-none border-0 bg-transparent ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-        ☰
-      </button>
-    </header>
-
-  <div class="offcanvas offcanvas-end mobile-drawer" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
-    <div class="offcanvas-header">
-      <img src="/assets/logopng.png" class="drawer-logo" height="40" alt="Logo" />
-      <button type="button" class="btn-close btn-close-white h-100" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body d-flex flex-column p-0">
-      <ul class="drawer-nav list-unstyled p-4">
-        <li class="mb-4"><a href="#" class="fs-3">Services</a></li>
-        <li class="mb-4"><a href="#" class="fs-3">About Us</a></li>
-        <li class="mb-4"><a href="#" class="fs-3">Portfolio</a></li>
-      </ul>
-      <a href="#contact-form-box" class="drawer-contact mt-auto">Contact</a>
-    </div>
-  </div>
     
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
 
-<section class="herosection" data-aos="zoom-in">
-  <div class="hero">
-    <img src="/assets/herovid.gif" class="heroimg desktop-gif" alt="Hero Desktop">
-    <img src="/assets/mobileherovids.gif" class="heroimg mobile-gif" alt="Hero Mobile">
-  </div>
-</section>
+      <section class="herosection" data-aos="zoom-in">
+        <div class="hero-slider">
 
+          <!-- Slide 1 -->
+          <div class="hero-slide active">
+            <img src="/assets/herovid.gif" class="heroimg desktop-gif" alt="Hero Desktop 1">
+            <img src="/assets/mobileherovids.gif" class="heroimg mobile-gif" alt="Hero Mobile 1">
+          </div>
 
+          <!-- Slide 2 -->
+          <div class="hero-slide as-pos-rilt">
+            <img src="/assets/Group-603.png" class="heroimg desktop-gif" alt="Hero Desktop 2">
+            <img src="/assets/Frame-2.png" class="heroimg mobile-gif" alt="Hero Mobile 2">
+            <img src="/assets/tenor.gif" alt="Gif Images" class="gif_img">
+          </div>
+
+          <!-- Dots -->
+          <div class="hero-dots"></div>
+
+        </div>
+
+      </section>
 
     <!-- Hero Section End -->
 
-    <!-- Service Section and About Section Start -->
+    <!-- Service Section Start -->
 
-    <section class="we-do-main as-secondary-bg pt-5">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-12 text-center we-do-main-heading">
-            <h2
-              class="fs-1 text-uppercase fw-bold as-secondary-txt we-do-heading"
-              data-aos="flip-left"
+      <section class="we-do-main as-secondary-bg pt-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-12 text-center we-do-main-heading">
+              <h2
+                class="fs-1 text-uppercase fw-bold as-secondary-txt we-do-heading"
+                data-aos="flip-left"
 
-            >
-              Things We Do So You
-            </h2>
-            <h2
-              class="fs-1 text-uppercase fw-bold text-white mb-4"
-              data-aos="flip-left"
-            >
-              Don't Have To
-            </h2>
-          </div>
-          <div class="col-12">
-            <div class="as-we-do-grid">
+              >
+                Things We Do So You
+              </h2>
+              <h2
+                class="fs-1 text-uppercase fw-bold text-white mb-4"
+                data-aos="flip-left"
+              >
+                Don't Have To
+              </h2>
+            </div>
+            <div class="col-12">
+              <div class="as-we-do-grid">
 
-              <div class="as-we-do-box box-content" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
-                  Content Writing
-                </h4>
-                <p class="text-white mb-3 fs-5">
-                  <span class="fw-bold"
-                    >Websites, scripts, social media posts, blogs,</span
+                <div class="as-we-do-box box-content" data-aos="zoom-out">
+                  <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
+                    Content Writing
+                  </h4>
+                  <p class="text-white mb-3 fs-5">
+                    <span class="fw-bold"
+                      >Websites, scripts, social media posts, blogs,</span
+                    >
+                    and everything in between.
+                  </p>
+                  <p class="text-white m-0 fs-5">
+                    We make it sound good and rank high.
+                  </p>
+                </div>
+
+                <div class="as-we-do-box box-seo" data-aos="zoom-out">
+                  <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
+                    SEO
+                  </h4>
+                  <p class="text-white mb-3  fs-5">
+                    We play nice with Google, so your brand doesn't have to beg
+                    for visibility.
+                  </p>
+                  <p class="text-white m-0  fs-5">
+                    From AIO SEO to keywords and backlinks, we make sure your name
+                    pops up on page #1.
+                  </p>
+                </div>
+
+                <div class="as-we-do-box box-smm" data-aos="zoom-out">
+                  <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
+                    smm
+                  </h4>
+                  <p class="text-white mb-2  fs-5">
+                    If you're not building your brand's personality through social
+                    media, you're already way behind.
+                  </p>
+                  <p class="text-white m-0  fs-5">
+                    We help you ace the most important advertising tool of the
+                    generation.
+                  </p>
+                </div>
+
+                <div class="as-we-do-box box-influencer" data-aos="zoom-out">
+                  <h4
+                    class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
                   >
-                  and everything in between.
-                </p>
-                <p class="text-white m-0 fs-5">
-                  We make it sound good and rank high.
-                </p>
-              </div>
+                    Influencer Marketing
+                  </h4>
+                  <p class="text-white mb-3  fs-5">
+                    We know
+                    <span class="fw-bold"
+                      >which influencers the internet listens to.</span
+                    >
+                  </p>
+                  <p class="text-white m-0 fs-5">
+                    So we team you up with the ones who turn attention into
+                    action, views and likes.
+                  </p>
+                </div>
 
-              <div class="as-we-do-box box-seo" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
-                  SEO
-                </h4>
-                <p class="text-white mb-3  fs-5">
-                  We play nice with Google, so your brand doesn't have to beg
-                  for visibility.
-                </p>
-                <p class="text-white m-0  fs-5">
-                  From AIO SEO to keywords and backlinks, we make sure your name
-                  pops up on page #1.
-                </p>
-              </div>
-
-              <div class="as-we-do-box box-smm" data-aos="zoom-out">
-                <h4 class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2">
-                  smm
-                </h4>
-                <p class="text-white mb-2  fs-5">
-                  If you're not building your brand's personality through social
-                  media, you're already way behind.
-                </p>
-                <p class="text-white m-0  fs-5">
-                  We help you ace the most important advertising tool of the
-                  generation.
-                </p>
-              </div>
-
-              <div class="as-we-do-box box-influencer" data-aos="zoom-out">
-                <h4
-                  class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
-                >
-                  Influencer Marketing
-                </h4>
-                <p class="text-white mb-3  fs-5">
-                  We know
-                  <span class="fw-bold"
-                    >which influencers the internet listens to.</span
+                <div class="as-we-do-box box-video" data-aos="zoom-out">
+                  <h4
+                    class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
                   >
-                </p>
-                <p class="text-white m-0 fs-5">
-                  So we team you up with the ones who turn attention into
-                  action, views and likes.
-                </p>
-              </div>
-
-              <div class="as-we-do-box box-video" data-aos="zoom-out">
-                <h4
-                  class="as-secondary-txt fw-bold fs-3 text-uppercase mb-2 w-50"
-                >
-                  Video Editing
-                </h4> 
-                <p class="text-white m-0 fs-5">
-                  We cut, crop, sync, and stitch until your video looks like a
-                  professional video that's ready to go viral!!
-                </p>
+                    Video Editing
+                  </h4> 
+                  <p class="text-white m-0 fs-5">
+                    We cut, crop, sync, and stitch until your video looks like a
+                    professional video that's ready to go viral!!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 btn">
-            <button class=" fs-5"><a href="#contact-form-box" style="color: #000080;text-decoration: none;">Request Sample</a></button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="as-about-us as-secondary-bg py-5 position-relative blue-bg"
-      data-aos="fade-down"
-    >
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-12 col-lg-5 as-about-box">
-            <img
-              src="../assets/LekinYeSubKePichheKonHai.png"
-              alt="Abiut Us Image"
-              class="as-about-img position-relative"
-            />
-          </div>
-          <div
-            class="about-p col-12 col-lg-7 d-flex align-items-center pe-0 pe-xl-5 "
-            data-aos="zoom-in-down"
-          >
-            <div>
-              <p class="text-white mb-3 text-left text-lg-end fs-5">
-                It's me, <span class="as-secondary-txt">Parth,</span> and my
-                ridiculously talented team.
-              </p>
-              <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
-                We're not here to
-                <span class="as-secondary-txt"
-                  >drown you in corporate buzzwords or 40-slide decks that say
-                  nothing.</span
-                >
-                We just make things that actually work. Content that clicks,
-                videos that convert, SEO that ranks, and social strategies that
-                get attention.
-              </p>
-              <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
-                We're young, we move fast, and we don't believe in half-baked
-                promises. We don't rest until your brand is thriving.
-              </p>
-              <p class="text-white mb-0 text-left text-lg-end fs-20 fs-5">
-                Deliver first, sleep later. That's pretty much how we function.
-              </p>
+            <div class="col-12 btn">
+              <button class=" fs-5"><a href="#contact-form-box" style="color: #000080;text-decoration: none;">Request Sample</a></button>
             </div>
           </div>
         </div>
-      </div>
-      <div class="as-about-us-main"></div>
-    </section>
+      </section>
 
-    <!-- Service Section and About Section End -->
-
-    <!-- Why Choose Us Start -->
-
-    <section class="hum-section">
-      <div class="top-strip"></div>
-
-      <!-- Decorative Question -->
-      <div class="question-mark">
-        <img src="/assets/question.png" alt="question" data-aos="flip-left" />
-      </div>
-
-      <div class="container hum-wrapper">
-        <h1 class="hum-title league-spartan" data-aos="flip-left">
-          HUM HI KYUN
-        </h1>
-
-        <p class="hum-subtitle league-spartan fs-5" data-aos="fade-down">
-          Our digital marketing team is young, painfully online, and
-          <strong class="as-primary-txt">powered by iced coffee</strong> and
-          chaos. We scroll, stalk, and study trends like it’s a full-time job
-          (because it is).
-        </p>
-
-        <div class="hum-card">
-          <!-- Floating image (ALWAYS absolute) -->
-          <div class="floating-thumb" data-aos="flip-left">
-            <img src="/assets/car.gif" alt="thumbnail" />
-          </div>
-
-          <div class="hum-row" data-aos="fade-left">
-            <div class="hum-left fs-3">WE'RE FAST.</div>
-            <div class="hum-right w-80 fs-5">
-              We don't drag things out; we just get the job done right, once and
-              for all.
-              <span class="highlight">We just get sh*t done.</span>
-            </div>
-          </div>
-
-          <div class="hum-row" data-aos="fade-right">
-            <div class="hum-left fs-3">WE GET IT.</div>
-            <div class="hum-right w-100 fs-5">
-              You don’t need to over-explain. We catch the vibe, read between
-              the lines, and deliver exactly what you meant.
-            </div>
-          </div>
-
-          <div class="hum-row" data-aos="fade-left">
-            <div class="hum-left fs-3">WE'RE GEN-Z</div>
-            <div class="hum-right w-100 fs-5">
-              We’ve seen every platform rise, crash, and rebrand.
-              <span class="highlight">The algorithm raised us</span>, now we use
-              it to raise your brand.
-            </div>
-          </div>
-
-          <div class="row py-4" data-aos="fade-right">
-            <div class="col-12 col-md-3 position-relative">
-              <div class="avatar">
-                <img src="/assets/girlhoodie.png" alt="person" />
-              </div>
-            </div>
-            <div class="col-12 col-md-9">
-              <div class="final-text">
-                <h4 class="final-title league-spartan">
-                  WE'RE ACTUALLY GOOOOOOOOO<span class="as-primary-txt"
-                    >OOD.</span
-                  >
-                </h4>
-                <p class="final-subtitle league-spartan  fs-5">
-                  We'll call out what's outdated, fix it, and make it perform.
-                  <span class="highlight"
-                    >Strategy, creativity, and execution</span
-                  >, all working together like butter.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us End -->
+    <!-- Service Section End -->
 
     <!-- Counter Section start -->
 
@@ -417,6 +303,141 @@
       </section>
 
     <!-- Counter Section End -->
+
+
+    <!-- About Section Start -->
+
+      <section
+        class="as-about-us as-secondary-bg py-5 position-relative blue-bg"
+        data-aos="fade-down"
+      >
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-lg-5 as-about-box">
+              <img
+                src="../assets/LekinYeSubKePichheKonHai.png"
+                alt="Abiut Us Image"
+                class="as-about-img position-relative"
+              />
+            </div>
+            <div
+              class="about-p col-12 col-lg-7 d-flex align-items-center pe-0 pe-xl-5 "
+              data-aos="zoom-in-down"
+            >
+              <div>
+                <p class="text-white mb-3 text-left text-lg-end fs-5">
+                  It's me, <span class="as-secondary-txt">Parth,</span> and my
+                  ridiculously talented team.
+                </p>
+                <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
+                  We're not here to
+                  <span class="as-secondary-txt"
+                    >drown you in corporate buzzwords or 40-slide decks that say
+                    nothing.</span
+                  >
+                  We just make things that actually work. Content that clicks,
+                  videos that convert, SEO that ranks, and social strategies that
+                  get attention.
+                </p>
+                <p class="text-white mb-3 text-left text-lg-end fs-20 fs-5">
+                  We're young, we move fast, and we don't believe in half-baked
+                  promises. We don't rest until your brand is thriving.
+                </p>
+                <p class="text-white mb-0 text-left text-lg-end fs-20 fs-5">
+                  Deliver first, sleep later. That's pretty much how we function.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as-about-us-main"></div>
+      </section>
+
+  <!-- About Section End -->
+
+    <!-- Why Choose Us Start -->
+
+      <section class="hum-section">
+        <div class="top-strip"></div>
+
+        <!-- Decorative Question -->
+        <div class="question-mark">
+          <img src="/assets/question.png" alt="question" data-aos="flip-left" />
+        </div>
+
+        <div class="container hum-wrapper">
+          <h1 class="hum-title league-spartan" data-aos="flip-left">
+            HUM HI KYUN
+          </h1>
+
+          <p class="hum-subtitle league-spartan fs-5" data-aos="fade-down">
+            Our digital marketing team is young, painfully online, and
+            <strong class="as-primary-txt">powered by iced coffee</strong> and
+            chaos. We scroll, stalk, and study trends like it’s a full-time job
+            (because it is).
+          </p>
+
+          <div class="hum-card">
+            <!-- Floating image (ALWAYS absolute) -->
+            <div class="floating-thumb" data-aos="flip-left">
+              <img src="/assets/car.gif" alt="thumbnail" />
+            </div>
+
+            <div class="hum-row" data-aos="fade-left">
+              <div class="hum-left fs-3">WE'RE FAST.</div>
+              <div class="hum-right w-80 fs-5">
+                We don't drag things out; we just get the job done right, once and
+                for all.
+                <span class="highlight">We just get sh*t done.</span>
+              </div>
+            </div>
+
+            <div class="hum-row" data-aos="fade-right">
+              <div class="hum-left fs-3">WE GET IT.</div>
+              <div class="hum-right w-100 fs-5">
+                You don’t need to over-explain. We catch the vibe, read between
+                the lines, and deliver exactly what you meant.
+              </div>
+            </div>
+
+            <div class="hum-row" data-aos="fade-left">
+              <div class="hum-left fs-3">WE'RE GEN-Z</div>
+              <div class="hum-right w-100 fs-5">
+                We’ve seen every platform rise, crash, and rebrand.
+                <span class="highlight">The algorithm raised us</span>, now we use
+                it to raise your brand.
+              </div>
+            </div>
+
+            <div class="row py-4" data-aos="fade-right">
+              <div class="col-12 col-md-3 position-relative">
+                <div class="avatar">
+                  <img src="/assets/girlhoodie.png" alt="person" />
+                </div>
+              </div>
+              <div class="col-12 col-md-9">
+                <div class="final-text">
+                  <h4 class="final-title league-spartan">
+                    WE'RE ACTUALLY GOOOOOOOOO<span class="as-primary-txt"
+                      >OOD.</span
+                    >
+                  </h4>
+                  <p class="final-subtitle league-spartan  fs-5">
+                    We'll call out what's outdated, fix it, and make it perform.
+                    <span class="highlight"
+                      >Strategy, creativity, and execution</span
+                    >, all working together like butter.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Why Choose Us End -->
+
+
 
     <!-- Steps section start -->
 
@@ -591,6 +612,7 @@
             <div class="col-12 position-relative" data-aos="flip-up">
               <div class="swiper ClientReviews position-relative">
                 <div class="swiper-wrapper">
+
                   <div class="swiper-slide">
                     <div class="client-review-main">
                       <div class="row align-items-center">
@@ -605,7 +627,7 @@
                                     class="client-review-img"
                                   />
                                 </div>
-                                <h4 class="text-white m-0">John Deo</h4>
+                                <h4 class="text-white m-0">sushbellara569</h4>
                               </div>
                             </div>
                             <div
@@ -623,17 +645,13 @@
                         </div>
                         <div class="col-12">
                           <p class="text-white fs-5">
-                            Our digital marketing team is young, painfully online,
-                            and powered by iced coffee and chaos. We scroll stalk,
-                            and study trends like it's a full-time job (because it
-                            is). We know what makes people stop mid-scroll, what
-                            makes them share, and what makes them say “I need to
-                            buy this right now” in the comments.
+                            A really talented writer who managed to execute the task with great skill and care. He showed a thoughtful approach and conducted research to a high standard. His ability to write lucidly really helped in ensuring the post was articulate and carried the right impact. Highly recommended.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div class="swiper-slide">
                     <div class="client-review-main">
                       <div class="row align-items-center">
@@ -648,7 +666,7 @@
                                     class="client-review-img"
                                   />
                                 </div>
-                                <h4 class="text-white m-0">John Deo</h4>
+                                <h4 class="text-white m-0">greenmapleasia</h4>
                               </div>
                             </div>
                             <div
@@ -666,17 +684,13 @@
                         </div>
                         <div class="col-12">
                           <p class="text-white fs-5">
-                            Our digital marketing team is young, painfully online,
-                            and powered by iced coffee and chaos. We scroll stalk,
-                            and study trends like it's a full-time job (because it
-                            is). We know what makes people stop mid-scroll, what
-                            makes them share, and what makes them say “I need to
-                            buy this right now” in the comments.
+                            I’m really impressed with the SEO work Parth did for my website. He clearly knows what he's doing. He found great keywords, fixed technical issues, and explained everything in a way that made sense. Communication was smooth, deadlines were met, and the whole process was super easy. Highly recommend and will 100% work with him again!
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div class="swiper-slide">
                     <div class="client-review-main">
                       <div class="row align-items-center">
@@ -691,7 +705,7 @@
                                     class="client-review-img"
                                   />
                                 </div>
-                                <h4 class="text-white m-0">John Deo</h4>
+                                <h4 class="text-white m-0">vanessa_mh</h4>
                               </div>
                             </div>
                             <div
@@ -709,17 +723,13 @@
                         </div>
                         <div class="col-12">
                           <p class="text-white fs-5">
-                            Our digital marketing team is young, painfully online,
-                            and powered by iced coffee and chaos. We scroll stalk,
-                            and study trends like it's a full-time job (because it
-                            is). We know what makes people stop mid-scroll, what
-                            makes them share, and what makes them say “I need to
-                            buy this right now” in the comments.
+                            We’ve worked with Parth on multiple copywriting projects and will absolutely keep going back. Communication is clear, turnaround times are reliable, and the copy is always well thought out and on brief. Highly recommend to anyone needing quality, consistent copywriting support.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div class="swiper-slide">
                     <div class="client-review-main">
                       <div class="row align-items-center">
@@ -734,7 +744,7 @@
                                     class="client-review-img"
                                   />
                                 </div>
-                                <h4 class="text-white m-0">John Deo</h4>
+                                <h4 class="text-white m-0">patelsirji</h4>
                               </div>
                             </div>
                             <div
@@ -752,17 +762,53 @@
                         </div>
                         <div class="col-12">
                           <p class="text-white fs-5">
-                            Our digital marketing team is young, painfully online,
-                            and powered by iced coffee and chaos. We scroll stalk,
-                            and study trends like it's a full-time job (because it
-                            is). We know what makes people stop mid-scroll, what
-                            makes them share, and what makes them say “I need to
-                            buy this right now” in the comments.
+                            I have worked with Parth before and he has impressed with the results again. The AI SEO work was sharp and actually made sense, and the report was easy to follow. I’ll be back again for sure.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
+
+                  <div class="swiper-slide">
+                    <div class="client-review-main">
+                      <div class="row align-items-center">
+                        <div class="col-12 mb-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <div class="d-flex align-items-center gap-2">
+                                <div class="client-img">
+                                  <img
+                                    src="../assets/Review/profile.png"
+                                    alt="Client Image"
+                                    class="client-review-img"
+                                  />
+                                </div>
+                                <h4 class="text-white m-0">
+                                  newformfitness</h4>
+                              </div>
+                            </div>
+                            <div
+                              class="col-6 d-flex justify-content-end align-items-center"
+                            >
+                              <p class="m-0">
+                                <span class="as-secondary-txt fs-4">★</span>
+                                <span class="as-secondary-txt fs-4">★</span>
+                                <span class="as-secondary-txt fs-4">★</span>
+                                <span class="as-secondary-txt fs-4">★</span>
+                                <span class="as-secondary-txt fs-4">★</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <p class="text-white fs-5">
+                            I had an excellent experience working with Parth! They reviewed my website content and transformed it into cleaner, more readable, and SEO-friendly copy while catching and fixing any grammar mistakes. Their attention to detail and expertise made a huge difference, and I am very happy with the result.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
                 <div
                   class="swiper-button-next"
@@ -1218,6 +1264,7 @@
 
     <!-- Review Section JS -->
     <script src="../js/loader.js"></script>
+    <script src="../js/herosection.js"></script>
     <script src="../js/faq.js"></script>
     <script src="../js/counter.js"></script>
     <script src="../js/review.js"></script>
